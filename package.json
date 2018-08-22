@@ -1,0 +1,29 @@
+{
+  "name": "cdmx20181-track-fe-themovieapi",
+  "version": "0.1.0",
+  "description": "Proyecto Api Movies",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soberanesmajo/cdmx20181-Track-FE-themovieapi.git"
+  },
+  "keywords": [
+    "api",
+    "movies"
+  ],
+  "author": "Majo Soberanes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soberanesmajo/cdmx20181-Track-FE-themovieapi/issues"
+  },
+  "homepage": "https://github.com/soberanesmajo/cdmx20181-Track-FE-themovieapi#readme",
+  "dependencies": {
+    "eslint": "^5.4.0"
+  }
+}
