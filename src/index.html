@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Api Movies</title>
 </head>
-<body>
-    <h1>Sci-fi Blog!</h1>
 
-    <button id="blade-runner" class="waves-effect waves-light btn-large">Blade Runner</button>
-    <button id="star-trek" class="waves-effect waves-light btn-large">Star Trek</button>
-    <button id="matrix" class="waves-effect waves-light btn-large">Matrix</button>
+<body>
+    <header>
+        <h1>Sci-fi Blog!</h1>
+    </header>
+
+    <section>
+    <button id="blade-runner" class="waves-effect #1de9b6 teal accent-3 btn-large">Blade Runner</button>
+    <button id="star-trek" class="waves-effect #18ffff cyan accent-2 btn-large">Star Trek</button>
+    <button id="matrix" class="waves-effect #00b8d4 cyan accent-4 btn-large">Matrix</button>
+    </section>
+
+    <div id="print-title"></div>
+
+    <a id="print" href="views/detalles.html"></a>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="js/data.js"></script>
 </body>
+
 </html>
