@@ -1,0 +1,20 @@
+ header h1{
+    text-align: center;
+}
+
+#print-title{
+    margin-top: 5%;
+    margin-left: 50%;
+}
+
+#print{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5%;
+    margin-left: 33%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
