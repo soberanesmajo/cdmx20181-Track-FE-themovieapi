@@ -32,7 +32,7 @@ matrix.addEventListener('click', () => {
 // Funcion que arroja la data solicitada
 
 const getMovies = (api, search) => {
-  let url = `http://www.omdbapi.com/?s=${search}&plot=full&apikey=${api}`;
+  let url = `https://www.omdbapi.com/?s=${search}&plot=full&apikey=${api}`;
   fetch(url).then((res) => {
     return res.json();
   })
